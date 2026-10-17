@@ -35,7 +35,7 @@ $$
 goal: toward vertex's coordinate on as-plane
 
 $$
-\vec{x}_n = a_n \hat{i} + s_n \hat{j} \text{on as-plane}
+\vec{x}_n = a_n \hat{i} + s_n \hat{j} \text{ on as-plane}
 $$
 
 
