@@ -29,7 +29,7 @@ $$
 **Vectorized Step Size ($\eta$):**
 
 $$
-\vec{x}_k = a_k \hat{i} + s_k \hat{j} \qquad (on a & s 2D plane) \qquad \implies \qquad goal: toward vertex's a & s coordinate)
+\vec{x}_k = a_k \hat{i} + s_k \hat{j} (on as-plane) \qquad \implies \qquad goal: toward vertex's coordinate on as-plane)
 $$
 
 $$
