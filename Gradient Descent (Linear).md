@@ -20,11 +20,11 @@ $$
 
 ## 2D Gradient Application
 
-$\nabla F$ is a vector field (having vector outputs) $\implies \nabla F(a, s) = \frac{\partial F}{\partial a}\mathbf{i} + \frac{\partial F}{\partial s}\mathbf{j}$
+$\nabla F$ is a vector field (having vector outputs) $\implies \nabla F(a, s) = \frac{\partial F}{\partial a} \hat{i} + \frac{\partial F}{\partial s} \hat{j}$
 
 **Vectorized Step Size (using learning rate $\eta$):**
 $$
-\vec{x}_k = a_k\mathbf{i} + s_k\mathbf{j} \qquad (on a & s 2D plane) \qquad \implies \qquad goal: toward vertex's a & s coordinate)
+\vec{x}_k = a_k \hat{i} + s_k \hat{j} \qquad (on a & s 2D plane) \qquad \implies \qquad goal: toward vertex's a & s coordinate)
 $$
 
 $$
