@@ -6,7 +6,9 @@ has convex paraboloid shape
 $$
 F(a, s) = \sum ((ax_i + s)-y_i)^2
 $$
+
 **Partial Derivatives**:
+
 $$
 \frac{\partial F}{\partial s} = \sum 2((ax_i + s) - y_i) \qquad \frac{\partial F}{\partial a} = \sum 2x_i((ax_i + s) - y_i)
 $$
@@ -20,9 +22,12 @@ $$
 
 ## 2D Gradient Application
 
-$\nabla F$ is a vector field (having vector outputs) $\implies \nabla F(a, s) = \frac{\partial F}{\partial a} \hat{i} + \frac{\partial F}{\partial s} \hat{j}$
+$$
+\nabla F$ is a vector field (having vector outputs) \implies \nabla F(a, s) = \frac{\partial F}{\partial a} \hat{i} + \frac{\partial F}{\partial s} \hat{j}
+$$
 
 **Vectorized Step Size (using learning rate $\eta$):**
+
 $$
 \vec{x}_k = a_k \hat{i} + s_k \hat{j} \qquad (on a & s 2D plane) \qquad \implies \qquad goal: toward vertex's a & s coordinate)
 $$
