@@ -42,7 +42,7 @@ $$
 $$
 \therefore \quad \vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla F(a_n, s_n) \quad \Leftrightarrow \quad s_{n+1} = s_n - \left. \frac{\partial F}{\partial s} \right |_{(a, s) = (a_n, s_n)} \cdot \eta \quad \text{and} \quad a_{n+1} = a_n - \left. \frac{\partial F}{\partial a} \right |_{(a, s) = (a_n, s_n)} \cdot \eta
 $$
-
+both are virtually the same
 
 
 ## Project Overview
