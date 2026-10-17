@@ -8,4 +8,4 @@
 - The algorithm requires a sufficiently small learning rate (η) to prevent divergence. On a paraboloid surface (unsure about other shapes), convergence slows significantly near the local minimum as the gradient magnitude approaches zero (||∇f|| ≈ 0), illustrating the classic vanishing gradient behavior in basic optimization
 - 
 # Extended Mathematical Derivations (2026 feb version):
-  - `additional curiosity about cross product & curl` / `cross product coordinate derivation`: Tried to link curl and rotation using mechanical torque.
+  - additional curiosity about cross product(coordinate derivation) & curl: Tried to link curl and rotation using mechanical torque.
