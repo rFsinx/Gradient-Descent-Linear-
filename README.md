@@ -22,7 +22,7 @@ s_{n+1} = s_n - \left. \frac{\partial F}{\partial s} \right |_{s = s_n} \cdot \e
 $$
 
 
-## 2D Gradient Application
+## 2D Gradient Application (z = F(a, s))
 
 $\nabla F$ is a vector field (having vector outputs)
 
