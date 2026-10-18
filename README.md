@@ -30,7 +30,7 @@ $$
   <img src="gradient descent visualization.png" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
 </p>
 
-- Paraboloid Mapping (Left): Illustrates the Sum of Squared Residuals (SSR) as a convex function. The red curve tracks 3D gradient descent descent path on the surface toward the global minimum (Vertex).
+- Paraboloid Mapping (Left): Illustrates the Sum of Squared Residuals (SSR) as a convex function. The red curve tracks 3D gradient descent path on the surface toward the global minimum (Vertex).
 
 - 2D Vector Contour Projection (Right): optimization trajectory ($\vec{x}_n = a_n \hat{i} + s_n \hat{j}$) on the parameter plane (a-axis vs s-axis).
 
