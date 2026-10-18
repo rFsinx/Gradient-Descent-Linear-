@@ -24,6 +24,19 @@ $$
 
 ## 2D Gradient Application (z = f(a, s))
 
+**Visualization:**
+
+<p align="center">
+  <img src="gradient descent visualization.png" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
+</p>
+
+- D Paraboloid Mapping (Left): Illustrates the Sum of Squared Residuals (SSR) as a convex function. The red curve tracks 3D gradient descent descent path on the surface toward the global minimum (Vertex).
+
+- 2D Vector Contour Projection (Right):optimization trajectory ($\vec{x}_n = a_n \hat{i} + s_n \hat{j}$) on the parameter plane (a-axis vs s-axis).
+
+  It visually shows how sequence of updated vector component converges to the precise analytical limits: $\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$.
+
+
 $\nabla F$ is a vector field (having vector outputs)
 
 $$
@@ -43,7 +56,7 @@ $$
 \therefore \quad \vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla F(a_n, s_n) \quad \Leftrightarrow \quad s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial s} \right |_{(a, s) = (a_n, s_n)} \quad \text{and} \quad a_{n+1} = a_n - \eta \ \left. \frac{\partial f}{\partial a} \right |_{(a, s) = (a_n, s_n)}
 $$
 
-both are essentially the same statement ($a \leftrightarrow b$ \text{means} a = b)
+both are essentially the same statement ($a \leftrightarrow b \text{means} a = b$)
 
 
 ## Project Overview
