@@ -52,8 +52,10 @@ both are virtually the same
 </p>
 
 3D Paraboloid Mapping (Left): Illustrates the Sum of Squared Residuals (SSR) as a convex function. The red curve tracks 3D gradient descent descent path on the surface toward the global minimum (Vertex).
-2D Vector Contour Projection (Right):optimization trajectory ($\vec{x}_n = a_n\hat{i} + s_n\hat{j}$) on the parameter plane (a-axis vs s-axis).
-It visually proves how sequence of updated vector component converges to the precise analytical limits: $\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$.
+2D Vector Contour Projection (Right):optimization trajectory ($\vec{x}_n = a_n \hat{i} + s_n \hat{j}$) on the parameter plane (a-axis vs s-axis).
+It visually proves how sequence of updated vector component converges to the precise analytical limits
+
+$\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$.
 
 
 ## Project Overview
