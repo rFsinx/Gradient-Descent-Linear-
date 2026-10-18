@@ -40,7 +40,7 @@ $$
 $\nabla F$ is a vector field (having vector outputs)
 
 <p align="center">
-  <img src="Gradient Descent Summary (updated version) 2.pdf" alt="" width="100%">
+  <img src="Gradient Descent Summary (updated version).jpg" alt="" width="100%">
 </p>
 
 $$
@@ -74,5 +74,5 @@ both are essentially the same statement ($a \leftrightarrow b \text{  means  } a
   - curiosity about cross product (coordinate derivation) & curl: Tried to link curl and rotation using mechanical torque.
 
 <p align="center">
-  <img src="cross product proof - curl vector calculus insight.pdf" alt="" width="100%">
+  <img src="cross product proof - curl vector calculus insight.jpg" alt="" width="100%">
 </p>
