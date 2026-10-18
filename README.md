@@ -40,7 +40,7 @@ $$
 $\nabla F$ is a vector field (having vector outputs)
 
 <p align="center">
-  <img src="cross product proof - curl vector calculus insight.png" alt="" width="100%">
+  <img src="Gradient Descent Summary (updated version) 2.png" alt="" width="100%">
 </p>
 
 $$
