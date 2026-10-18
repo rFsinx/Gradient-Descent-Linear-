@@ -39,6 +39,10 @@ $$
 
 $\nabla F$ is a vector field (having vector outputs)
 
+<p align="center">
+  <img src="cross product proof - curl vector calculus insight.png" alt="" width="100%">
+</p>
+
 $$
 \nabla f(a, s) = \frac{\partial f}{\partial a} \ \hat{i} + \frac{\partial f}{\partial s} \ \hat{j}
 $$
@@ -68,3 +72,7 @@ both are essentially the same statement ($a \leftrightarrow b \text{  means  } a
 - 
 # Bonus (Feb 2026):
   - curiosity about cross product (coordinate derivation) & curl: Tried to link curl and rotation using mechanical torque.
+
+<p align="center">
+  <img src="cross product proof - curl vector calculus insight.png" alt="" width="100%">
+</p>
