@@ -76,5 +76,5 @@ both are essentially the same statement ($a \leftrightarrow b \text{  means  } a
 
 <p align="center">
   <img src="cross product proof - curl vector calculus insight-1.png" alt="b" width="100%">
-  <img src="cross product proof - curl vector calculus insight-2.png" alt="b" width="100%"
+  <img src="cross product proof - curl vector calculus insight-2.png" alt="b" width="100%">
 </p>
