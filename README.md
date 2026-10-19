@@ -2,7 +2,7 @@
 
 ## Sum of squared residuals
 
-a paraboloid, leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its minimum
+a 3D paraboloid error function && leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its minimum
 has convex paraboloid shape
 
 $$
