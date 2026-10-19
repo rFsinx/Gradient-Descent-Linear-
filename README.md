@@ -61,7 +61,7 @@ both are essentially the same statement ($a \leftrightarrow b \text{  means  } a
 
 
 ## Project Overview
-- (Implementation):  Expanded a previously completed Gradient Descent project by integrating partial differentiation to upgrade a Java-based linear regression tool for highway traffic modeling.
+- (Implementation):  Integrated partial differentiation to upgrade a Java-based linear regression tool for highway traffic modeling.
 - (Tools Extension): Self-studied Vector Calculus to re-analyze the optimization trajectory via 2D Gradient Field (∇f).
 
 # Convergence & Limitations
