@@ -2,7 +2,7 @@
 
 ## Sum of squared residuals
 
-a quadratic function, leading coefficient > 0 $\implies$ its derivative = 0 $\Leftrightarrow$ its minimum
+a paraboloid, leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its minimum
 has convex paraboloid shape
 
 $$
