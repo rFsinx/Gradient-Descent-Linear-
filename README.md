@@ -58,7 +58,7 @@ $$
 
 
 $$
-\therefore \boxed{\quad \vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla F(a_n, s_n)} \quad \Leftrightarrow \quad \boxed{s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial s} \right |_{(a, s) = (a_n, s_n)} \quad \text{and} \quad a_{n+1} = a_n - \eta \ \left. \frac{\partial f}{\partial a} \right |_{(a, s) = (a_n, s_n)}}
+\therefore \quad \boxed{\vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla F(a_n, s_n)} \quad \Leftrightarrow \quad \boxed{s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial s} \right |_{(a, s) = (a_n, s_n)} \quad \text{and} \quad a_{n+1} = a_n - \eta \ \left. \frac{\partial f}{\partial a} \right |_{(a, s) = (a_n, s_n)}}
 $$
 
 both are essentially the same statement ($a \leftrightarrow b \text{  means  } a = b$)
