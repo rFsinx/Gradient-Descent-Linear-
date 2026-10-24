@@ -48,6 +48,7 @@ $$
 
 $$
 \vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla f(a_n, s_n) \qquad \Leftrightarrow \qquad s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial a} \right |_{(a, s) = (a_n, s_n)} \quad \text{and} \quad a_{n+1} = a_n - \eta \ \left. \frac{\partial f}{\partial s} \right |_{(a, s) = (a_n, s_n)}
+$$
 
 $$
 \|\nabla f(a_\text{vertex}, s_\text{vertex})\| \approx 0 \qquad \Leftrightarrow \qquad \left. \frac{\partial f}{\partial a} \right |_{(a, s) = (a_n, s_n) \qquad \text{and} \qquad \left. \frac{\partial f}{\partial s} \right |_{(a, s) = (a_n, s_n) \approx 0
