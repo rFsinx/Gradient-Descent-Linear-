@@ -51,7 +51,7 @@ $$
 $$
 
 $$
-\frac{\partial f}{\partial a} = 0 \ \& \ \frac{\partial f}{\partial s} = 0 \qquad \Leftrightarrow \qquad \|\nabla f(a_\text{vertex}, s_\text{vertex})\| = 0
+\frac{\partial f}{\partial a} = 0 \ \text{ and } \ \frac{\partial f}{\partial s} = 0 \qquad \Leftrightarrow \qquad \|\nabla f(a_\text{vertex}, s_\text{vertex})\| = 0
 $$
 
 - Paraboloid Mapping (Left): Illustrates the Sum of Squared Residuals (SSR) as a convex function. The red curve tracks 3D gradient descent path on the surface toward the global minimum (Vertex).
