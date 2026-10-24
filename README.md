@@ -36,6 +36,12 @@ $$
 \vec{x}_n = m_n \hat{i} + b_n \hat{j} \quad \text{(on mb-plane)}
 $$
 
+**To find Vertex Coordinate**
+
+$$
+\frac{\partial f}{\partial a} = 0 \ \text{ and } \ \frac{\partial f}{\partial s} = 0 \qquad \Leftrightarrow \qquad \|\nabla f(a_\text{vertex}, s_\text{vertex})\| = 0
+$$
+
 **Step Size Algorithm:**
 
 $$
@@ -44,11 +50,6 @@ $$
 
 $\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$ thus, threshold ($\approx 0$) needed
 
-**To find Vertex Coordinate**
-
-$$
-\frac{\partial f}{\partial a} = 0 \ \text{ and } \ \frac{\partial f}{\partial s} = 0 \qquad \Leftrightarrow \qquad \|\nabla f(a_\text{vertex}, s_\text{vertex})\| = 0
-$$
 
 
 ## Project Overview
