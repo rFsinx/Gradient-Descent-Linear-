@@ -63,4 +63,4 @@ $\lim_{n \to \infty} m_n = m_{\text{vertex}}$ and $\lim_{n \to \infty} b_n = b_{
 
 
 # Convergence & Limitations
-- The algorithm requires a sufficiently small learning rate ($\eta$) to ensure convergence. On a paraboloid surface, convergence slows significantly near the local minimum as the gradient magnitude approaches zero ($\|\nabla f\| \approx 0$). This reflects the inherent asymptotic convergence behavior of standard gradient descent, where step sizes naturally shrink near the optimum.
+- The algorithm requires sufficiently small learning rate ($\eta$) for convergence. The ㅊonvergence slows near the local minimum as the gradient magnitude approaches zero ($\|\nabla f\| \approx 0$). Thus, a threshold is needed to prevent infinite loops.
