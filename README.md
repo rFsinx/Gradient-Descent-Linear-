@@ -5,6 +5,8 @@
 a 3D paraboloid error function && leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its minimum
 has convex paraboloid shape
 
+linear regression: $y=ax+s$
+
 $$
 f(a, s) = \sum ((ax_i + s)-y_i)^2
 $$
