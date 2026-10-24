@@ -20,23 +20,25 @@ $$
 $$
 
 
-**Step SIze w/ 2D Contour Projection (using learning rate $\eta$):**
+**2D Gradient of SSR (using learning rate $\eta$):**
 $\nabla f$ is a vector field (set of continuous vector outputs)
-
 $$
-\nabla f(a, s) = \frac{\partial f}{\partial a} \ \hat{i} + \frac{\partial f}{\partial s} \ \hat{j}
-$$
-
-$$
-\vec{x}_n = a_n \hat{i} + s_n \hat{j} \quad \text{(on as-plane)}
+\nabla f(m, b) = \frac{\partial f}{\partial m} \ \hat{i} + \frac{\partial f}{\partial b} \ \hat{j}
 $$
 
+**2D Countour Vector Projection**
+$$
+\vec{x}_n = m_n \hat{i} + b_n \hat{j} \quad \text{(on mb-plane)}
+$$
+
+**Step Size Algorithm:**
 $$
 \vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla f(m_n, b_n) \qquad \Leftrightarrow \qquad s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial m} \right |_{(m, b) = (m_n, b_n)} \ \text{ and } \quad m_{n+1} = m_n - \eta \ \left. \frac{\partial f}{\partial b} \right |_{(m, b) = (m_n, b_n)}
 $$
 
-$\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$ thus, threshold ($\approx$) needed
+$\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$ thus, threshold ($\approx 0$) needed
 
+**To find Vertex Coordinate**
 $$
 \frac{\partial f}{\partial a} = 0 \ \text{ and } \ \frac{\partial f}{\partial s} = 0 \qquad \Leftrightarrow \qquad \|\nabla f(a_\text{vertex}, s_\text{vertex})\| = 0
 $$
