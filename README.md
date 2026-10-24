@@ -58,9 +58,11 @@ $\lim_{n \to \infty} m_n = m_{\text{vertex}}$ and $\lim_{n \to \infty} b_n = b_{
 
 
 ## Project Overview
-- (Implementation): Integrated partial differentiation to upgrade a Java-based linear regression tool for highway traffic modeling.
-- (Tools Extension): Self-studied Vector Calculus to re-analyze the optimization trajectory via 2D Gradient Field (∇f).
+Integrated partial differentiation and gradient to a Java-based linear regression tool for highway traffic modeling.
 
+<p align="center">
+  <img src="javaIMG" alt="aa" width="100%">
+</p>
 
 # Convergence & Limitations
 - The algorithm requires sufficiently small learning rate ($\eta$) for convergence. The ㅊonvergence slows near the local minimum as the gradient magnitude approaches zero ($\|\nabla f\| \approx 0$). Thus, a threshold is needed to prevent infinite loops.
