@@ -4,7 +4,7 @@ class Gradient
     double bComp;
 
     public Gradient(double mComp, double bComp) 
-  {
+    {
         this.mComp = mComp;
         this.bComp = bComp;
     }
