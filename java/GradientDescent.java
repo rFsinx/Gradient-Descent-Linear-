@@ -26,17 +26,16 @@ public class GradientDescent
         double epsilon = 50;
         double m = 1.0;
         double b = 0.0;
-    
-        double sumGradM = epsilon + 1.0;
-        double sumGradB = epsilon + 1.0;
+
         int step = 1;
+        Gradient grad = new Gradient(1000, 1000);
 
         System.out.println("---- Begin Gradient Descent training ----");
     
         while (Math.abs(sumGradM) > epsilon || Math.abs(sumGradB) > epsilon)
         {
-            sumGradM = 0;
-            sumGradB = 0;
+            double sumGradM = 0;
+            double sumGradB = 0;
 
             for (int i = 0; i < dataList.size(); i++)
             {
@@ -47,21 +46,15 @@ public class GradientDescent
                 sumGradM += 2 * xi * (linReg - yi);
                 sumGradB += 2 * (linReg - yi);
             }
-
+            
+            grad = new Gradient(sumGradM, sumGradB);
             m = m - (eta * sumGradM);
             b = b - (eta * sumGradB);
 
-            System.out.printf("Step %3d | m: %8.4f | b: %8.4f | gradM: %8.2f | gradB: %8.2f\n", 
-                    step++, m, b, sumGradM, sumGradB);
-            
-            if (step > 100000)
-            {
-                System.out.println("step 100,000 reached. Lower eta needed");
-                break;
-            }
+            System.out.printf("Step %3d | m: %8.4f | b: %8.4f | ||∇f||: %8.2f\n", step++, m, b, grad.getMagnitude());
         } 
 
-        System.out.println("\n---- final step reached ----");
+        System.out.println("\n---- final step reached (||∇f|| <= epsilon) ----");
         System.out.printf("Traffic = (%.4f * Time) + (%.4f)\n", m, b);
     }
 
