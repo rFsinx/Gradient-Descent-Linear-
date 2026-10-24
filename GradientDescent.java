@@ -3,13 +3,13 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class GradientDescent
+public class GradientDescent 
 {
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args) throws IOException 
     {
         ArrayList<DataPoint> dataList = new ArrayList<>();
         Scanner sc = new Scanner(new File("10points.txt"));
-        while(sc.hasNextInt())
+        while (sc.hasNextInt()) 
         {
             int time = sc.nextInt();
             int trafficVolume = sc.nextInt();
@@ -24,42 +24,45 @@ public class GradientDescent
     {
         double eta = 0.0003;
         double epsilon = 50;
-        double a = 1.0;
-        double s = 0.0;
+        double m = 1.0;
+        double b = 0.0;
     
-        double sumGradS;
-        double sumGradA;
+        double sumGradM = epsilon + 1.0;
+        double sumGradB = epsilon + 1.0;
         int step = 1;
 
-        System.out.println("---- Begin Gradient Descent training (do-while loop) ----");
+        System.out.println("---- Begin Gradient Descent training ----");
     
-        do 
+        while (Math.abs(sumGradM) > epsilon || Math.abs(sumGradB) > epsilon)
         {
-            sumGradS = 0;
-            sumGradA = 0;
+            sumGradM = 0;
+            sumGradB = 0;
 
-            for (int i = 0; i < dataList.size(); i++) 
+            for (int i = 0; i < dataList.size(); i++)
             {
                 int xi = dataList.get(i).time;
                 int yi = dataList.get(i).trafficVolume;
-                double pred = (a * xi) + s;
+                double linReg = (m * xi) + b;
             
-                sumGradS += 2 * (pred - yi);
-                sumGradA += 2 * xi * (pred - yi);
+                sumGradM += 2 * xi * (linReg - yi);
+                sumGradB += 2 * (linReg - yi);
             }
 
-            s = s - (eta * sumGradS);
-            a = a - (eta * sumGradA);
+            m = m - (eta * sumGradM);
+            b = b - (eta * sumGradB);
 
-            System.out.printf("Step %3d | a: %8.4f | s: %8.4f\n", step++, a, s);
-
-
+            System.out.printf("Step %3d | m: %8.4f | b: %8.4f | gradM: %8.2f | gradB: %8.2f\n", 
+                    step++, m, b, sumGradM, sumGradB);
+            
+            if (step > 100000)
+            {
+                System.out.println("step 100,000 reached. Lower eta needed");
+                break;
+            }
         } 
-        while (Math.abs(sumGradS) > epsilon || Math.abs(sumGradA) > epsilon);
-        {
-            System.out.println("\n---- final step reached ----");
-            System.out.printf("Traffic = (%.4f * Time) + (%.4f)\n", a, s);
-        }
+
+        System.out.println("\n---- final step reached ----");
+        System.out.printf("Traffic = (%.4f * Time) + (%.4f)\n", m, b);
     }
 
 }
