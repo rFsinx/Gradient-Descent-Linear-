@@ -40,6 +40,8 @@ $$
 \vec{x}_n = m_n \hat{i} + b_n \hat{j} \quad \text{(on mb-plane)}
 $$
 
+movement of $\vec x$ is toward the vertex on mb-plane (with low $\eta$)
+
 **To find Vertex Coordinate**
 
 $$
