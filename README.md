@@ -68,9 +68,7 @@ both are essentially the same statement ($a \leftrightarrow b \text{  means  } a
 - (Implementation):  Integrated partial differentiation to upgrade a Java-based linear regression tool for highway traffic modeling.
 - (Tools Extension): Self-studied Vector Calculus to re-analyze the optimization trajectory via 2D Gradient Field (∇f).
 
+vertex: $$\|\nabla f(a_v, s_v)\| \approx 0 \qquad \Leftrightarrow \qquad \frac{\partial f}{\partial a} \qquad \text{and} \qquad \frac{\partial f}{\partial s} \approx 0$$
+
 # Convergence & Limitations
 - The algorithm requires a sufficiently small learning rate (η) to ensure convergence. On a paraboloid surface (unsure about other shapes), convergence slows significantly near the local minimum as the gradient magnitude approaches zero (||∇f|| ≈ 0), illustrating the classic vanishing gradient behavior in basic optimization
-
-<p align="center">
-  <img src="Gradient Descent Summary (updated version).png" alt="a" width="100%">
-</p>
