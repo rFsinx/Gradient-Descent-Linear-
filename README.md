@@ -1,6 +1,6 @@
 # Gradient Descent & 2D Gradient Application (z = f(a, s))
 
-## Sum of squared residuals
+## Sum of Squared Residuals
 <p align="center">
   <img src="gradient descent visualization.png" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
 </p>
