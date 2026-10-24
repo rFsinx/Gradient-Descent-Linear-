@@ -2,7 +2,7 @@
 
 ## Sum of Squared Residuals
 <p align="center">
-  <img src="gradient descent visualization.png" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
+  <img src="image_1095bd2c.jpg" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
 </p>
 
 a 3D paraboloid error function && leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its coordinate = slope & intercept of the linear regression
