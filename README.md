@@ -61,7 +61,7 @@ $\lim_{n \to \infty} m_n = m_{\text{vertex}}$ and $\lim_{n \to \infty} b_n = b_{
 Integrated partial differentiation and gradient to a Java-based linear regression tool for highway traffic modeling.
 
 <p align="center">
-  <img src="javaIMG" alt="aa" width="100%">
+  <img src="javaIMG.png" alt="aa" width="100%">
 </p>
 
 # Convergence & Limitations
