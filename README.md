@@ -7,6 +7,8 @@ has convex paraboloid shape
 
 linear regression: $y=ax+s$
 
+**Error Function:**
+
 $$
 f(a, s) = \sum ((ax_i + s)-y_i)^2
 $$
