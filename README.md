@@ -49,7 +49,7 @@ $$
 **Step Size Algorithm:**
 
 $$
-\vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla f(m_n, b_n) \qquad \Leftrightarrow \qquad s_{n+1} = s_n - \eta \ \left. \frac{\partial f}{\partial m} \right |_{(m, b) = (m_n, b_n)} \ \text{ and } \quad m_{n+1} = m_n - \eta \ \left. \frac{\partial f}{\partial b} \right |_{(m, b) = (m_n, b_n)}
+\vec{x}_{n+1} = \vec{x}_n - \eta \ \nabla f(m_n, b_n) \qquad \Leftrightarrow \qquad m_{n+1} = m_n - \eta \ \left. \frac{\partial f}{\partial m} \right |_{(m, b) = (m_n, b_n)} \ \text{ and } \quad b_{n+1} = b_n - \eta \ \left. \frac{\partial f}{\partial b} \right |_{(m, b) = (m_n, b_n)}
 $$
 
 $\lim_{n \to \infty} a_n = a_{\text{vertex}}$ and $\lim_{n \to \infty} s_n = s_{\text{vertex}}$ thus, threshold ($\approx 0$) needed
