@@ -32,7 +32,7 @@ public class GradientDescent
 
         System.out.println("---- Begin Gradient Descent training ----");
     
-        while (Math.abs(sumGradM) > epsilon || Math.abs(sumGradB) > epsilon)
+        while (grad.getMagnitude() > epsilon)
         {
             double sumGradM = 0;
             double sumGradB = 0;
